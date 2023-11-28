@@ -18,21 +18,12 @@ branch: master
 
 envVars:
 
--key: TG_BOT_TOKEN
-
-sync: false
-
--key: UPDATE_CHANNEL
-
-sync: false
-
--key: APP_ID
-
-sync: false
-
--key: API_HASH
-
-sync: false
-
-
-autoDeploy: false
+- key: TG_BOT_TOKEN
+  sync: false
+- key: UPDATE_CHANNEL
+  sync: false
+- key: APP_ID
+  sync: false
+- key: API_HASH
+  sync: false
+  autoDeploy: false
