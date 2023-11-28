@@ -1,18 +1,18 @@
 services:
--type: web
- name: FileRenameBot
- env: python
- buildcommand: pip install -r requirements.txt
- startcommand: python3 bot.py
- rеро: https://github.com/MSTL-Updates/FileRenameBot/tree/master.git
- branch: master
-envVars:
-- key: TG_BOT_TOKEN
-  sync: false
-- key: UPDATE_CHANNEL
-  sync: false
-- key: APP_ID
-  sync: false
-- key: API_HASH
-  sync: false
+   -type: web
+    name: FileRenameBot
+    env: python
+    buildcommand: pip install -r requirements.txt
+    startcommand: python3 bot.py
+    rеро: https://github.com/MSTL-Updates/FileRenameBot/tree/master.git
+    branch: master
+   envVars:
+   - key: TG_BOT_TOKEN
+    sync: false
+   - key: UPDATE_CHANNEL
+    sync: false
+   - key: APP_ID
+    sync: false
+   - key: API_HASH
+    sync: false
   autoDeploy: false
